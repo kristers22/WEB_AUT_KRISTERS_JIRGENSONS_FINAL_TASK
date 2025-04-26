@@ -17,7 +17,7 @@ describe("FINAL WORK", () => {
       FormsPage.dateBox.click();
       FormsPage.selectMonth.select("February");
       FormsPage.selectYear.select("1930");
-      FormsPage.selectDate.click();
+      FormsPage.selectDate.contains("28").click();
 
       FormsPage.subjectsField.type("Economics{enter}");
       FormsPage.hobbiesCheckbox.contains("Music").click();
